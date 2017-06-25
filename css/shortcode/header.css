@@ -1,0 +1,409 @@
+/* -----------------------------------
+Template:  Haven Real Estate html5 template
+
+NOTE: This is Header style file. All Header related style included in this file.
+
+--------------------------------------*/
+.header-top {
+  background: #004395 none repeat scroll 0 0;
+  position: relative;
+}
+.header-menu ul li {
+    display: inline-block;
+    margin-right: 45px;
+    position: relative;
+}
+.header-menu ul li a {
+  color: #ffffff;
+  display: block;
+  font-family: "Poppins",sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 35px 0;
+  text-transform: uppercase;
+}
+.header-menu ul li:hover a {
+  color: #f9c322;
+}
+.header-menu {
+    text-align: right;
+}
+.header-menu ul li:last-child {
+    margin-right: 0;
+}
+.logo {
+    margin-bottom: -45px;
+    position: relative;
+    z-index: 99;
+}
+.header-bottom {
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  z-index: 99;
+}
+.logo > a {
+    display: block;
+}
+.haven-call p {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+.haven-call {
+    display: inline-block;
+    margin-right: 9px;
+}
+.add-property {
+    display: inline-block;
+}
+.add-property > a {
+  background: #f9c322 none repeat scroll 0 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  height: 35px;
+  line-height: 33px;
+  padding: 0 12px;
+}
+.add-property > a:hover {
+  border-color: #f9c322;
+  color: #f9c322;
+  background: inherit;
+}
+.logo > a {
+  background: #ffffff none repeat scroll 0 0;
+  display: inline-block;
+  height: 130px;
+  position: relative;
+  text-align: center;
+  width: 135px;
+  z-index: 999;
+}
+/*------------
+    Header top bar css here
+--------------*/
+.header-top-1 .haven-call > p {
+  color: #f9c322;
+  font-size: 14px;
+}
+.header-top-1 .haven-call {
+  display: block;
+  margin-right: 63px;
+  padding: 11px 0;
+}
+.header-topbar-menu, .header-search {
+    display: inline-block;
+}
+.header-topbar-menu ul li {
+    display: inline-block;
+}
+.header-search {
+  padding: 12px 0;
+  position: relative;
+}
+.search-box-area {
+  background: #004395 none repeat scroll 0 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  width: 100%;
+  z-index: 99999999;
+}
+.search-form {
+    margin: 70px 0;
+    padding-right: 100px;
+    position: relative;
+}
+.search-close-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.search-close-btn > a {
+    color: #ffffff;
+    font-size: 24px;
+}
+.search-close-btn > a:hover i {
+    color: #f9c322;
+    -webkit-transform: scale(1.5) rotate(180deg);
+    -ms-transform: scale(1.5) rotate(180deg);
+            transform: scale(1.5) rotate(180deg);
+}
+.zmdi.zmdi-close {
+}
+.search-close-btn > a i {
+    -webkit-transition: all 0.3s ease 0s;
+    
+    transition: all 0.3s ease 0s;
+}
+.search-box-show .search-box-area {
+    -webkit-transform: translateY(0px);
+     -ms-transform: translateY(0px);
+            transform: translateY(0px);
+}
+.header-topbar-menu ul li, .header-topbar-menu ul li a {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  color: #303030;
+}
+.header-1-top-inner {
+    text-align: right;
+}
+.header-topbar-menu li a {
+    color: #303030;
+    font-weight: 400;
+}
+.header-topbar-menu ul li {
+    margin-right: 65px;
+}
+.header-topbar-menu span {
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: -2px;
+}
+.header-topbar-menu ul li a:hover {
+    color: #f9c322;
+}
+.header-2 .header-menu ul li a {
+  padding: 27px 0;
+}
+.header-2 .logo {
+  margin-top: -16px;
+}
+.search-form-inner input {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #eeeeee;
+  color: #303030;
+  font-size: 18px;
+  font-weight: 400;
+  height: 52px;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.search-form-inner {
+    position: relative;
+}
+.search-form-inner button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #303030;
+  font-size: 18px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.home-map .haven-call p {
+  background: #f9c322 none repeat scroll 0 0;
+  color: #303030;
+  display: inline-block;
+  font-size: 16px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 20px;
+}
+.home-map .haven-call {
+  margin-right: 0;
+}
+/*---------------
+    Sticky css here
+---------------*/
+/*-------------------
+    18. Mobile menu css here
+----------------------------*/
+.mobile-menu-area {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 9999999;
+}
+.mean-container a.meanmenu-reveal {
+  color: #ffffff;
+  float: left;
+  left: 22% !important;
+  position: absolute;
+  top: -63px;
+}
+.mobile-menu-area .mean-nav {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.mean-container .mean-bar {
+  padding: 0;
+}
+/*-------------------
+    Navigation css here
+----------------------*/
+.header-menu ul li .dropdown_menu {
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+            transform: translateY(20px);
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    width: 250px;
+    z-index: 999;
+    visibility: hidden;
+}
+.header-menu ul li .dropdown_menu li {
+    border-bottom: 1px solid #e6e6e6;
+    display: block;
+    margin: 0;
+    text-align: left;
+}
+.header-menu ul li .dropdown_menu li a {
+  color: #606060;
+  font-family: "Poppins",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 13px 0 13px 15px;
+  text-transform: capitalize;
+}
+.header-menu ul li .dropdown_menu li a:hover {
+    color: #004395;
+}
+.header-menu ul li .dropdown_menu li:last-child {
+    border: medium none;
+}
+.header-menu ul li:hover .dropdown_menu,.header-menu ul li:hover ul.mega_menu  {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+            transform: translateY(0px);
+    visibility: visible;
+}
+
+/*Mega menu*/
+.header-menu ul li.mega-parent {
+    position: static;
+}
+.header-menu ul li ul.mega_menu {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+  left: 0;
+  opacity: 0;
+   padding: 45px 35px 32px;
+  position: absolute;
+  -webkit-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 999;
+}
+.header .container .row [class*="col-"] {
+    position: static;
+}
+.mgea-full-width {
+    position: relative;
+}
+.header-menu ul li ul.mega_menu li a {
+  color: #303030;
+  padding: 0 0 15px;
+}
+.header-menu ul li ul.mega_menu li ul li a:hover {
+  color: #f9c322;
+}
+.header-menu ul li ul.mega_menu li a.title {
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 20px;
+  color: #004395;
+}
+.header-menu ul li ul.mega_menu li {
+    display: block;
+    float: left;
+    margin: 0;
+    text-align: left;
+    width: 25%;
+    padding-right: 40px;
+}
+.header-menu ul li ul.mega_menu li:last-child,.header-menu ul li ul.mega_menu li ul li {
+    padding-right: 0;
+}
+.header-menu ul li ul.mega_menu li ul li {
+    display: block;
+    width: 100%;
+}
+.header-menu ul li ul.mega_menu li ul li a {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+
+.sticky {
+  animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.35);
+  left: 0;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.sticky .logo {
+  margin-top: 0;
+}
+
+.sticky .logo > a {
+    height: 105px;
+    width: 105px;
+}
+.sticky .logo img {
+    margin-top: 10px;
+}
+.sticky .mean-container a.meanmenu-reveal {
+  left: auto!important;
+  right: 0;
+}
+
+.logo img {
+  margin-top: 15px;
+  width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
