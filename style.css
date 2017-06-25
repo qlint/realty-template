@@ -1,0 +1,3007 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Haven Real Estate html5 template
+    Template URI: http://hastech.company/
+    Description: This is html5 template
+    Author: Devitems
+    Author URI: https://devitems.com/
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS
+    02. Find home section css here
+    03. Property area css here
+    04. Welcome Haven css here
+    05. Download apps css here
+    06. Our services css here
+    07. Feature property css here
+    08. Awesome feature css here
+    09. Fun fact css here
+    10. Our team css here
+    11. Cleint review css her
+    12. Brand css here
+    13. Footer css here   
+    14. Home 2 css here
+    15. Home 3 css here
+    16. Home 4 css here
+    17. Scrollup css here
+    18. Breadcrumbs css here
+    19. Pagination css here
+    20. Properties sidebar css here
+    21. Property list css here
+    22. Single property css here
+    23. Agent css here
+        23.1 Agent Details css here
+    24. Blog Sidebar css here
+    25. Article css here
+    26. Add property css here
+    27. Contact Page css here
+    28. Register page css here
+    29. 404 page css here
+    30. My account page css here
+    31. Welcome fixd text css here
+    32.  Tab css
+    33. Progress bar css
+    34. Accordion css here
+        
+	
+
+-----------------------------------------------------------------------------------*/
+
+/*-----------------
+	1. Theme Default CSS
+    
+--------------------*/
+/*--
+  Google fonts
+--*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Poppins:300,400,500,600,700|Raleway:300,400,500,600,700');
+
+/*************************************
+         Custom-content all   
+ **************************************/
+.boxed-layout .wrapper {
+  box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.14);
+  margin: auto;
+  position: relative;
+  width: 1500px;
+}
+.boxed-layout .sticky {
+    left: 0;
+    right: 0;
+    width: 1500px;
+}
+.boxed-layout.fixed {
+  margin: 70px 0;
+}
+.pattern-fixed.pattern {
+  background: url("images/bg/pattern.png") repeat fixed 0 0;
+}
+
+img{max-width: 100%}
+  
+
+/*----------------
+   02. Find home section css here
+------------------------*/
+.find-home {
+  background: #f5f9fd none repeat scroll 0 0;
+  padding: 90px 0;
+}
+.find-home-title > h3 {
+    color: #004395;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 46px;
+}
+.bs-caret {
+  display: none;
+}
+.bootstrap-select > .dropdown-toggle {
+    position: relative;
+    padding-right: 12px;
+}
+.bootstrap-select > .dropdown-toggle::before {
+  content: "";
+  font-family: Fontawesome;
+  position: absolute;
+  right: 12px;
+}
+.btn-group.open .dropdown-toggle {
+  box-shadow: none;
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default,.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default.focus:active, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
+  background-color: inherit;
+  border-color: #e1e1e1;
+  color: #606060;
+}
+.form-control:focus {
+  border-color: inherit;
+}
+.form-control {
+  border-color: #004395;
+  border-radius: 0;
+}
+.bootstrap-select > .dropdown-toggle,.bootstrap-select > .dropdown-toggle.bs-placeholder, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .bootstrap-select > .dropdown-toggle.bs-placeholder:active{
+    color: #606060
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+  outline: none !important;
+}
+.find-home-item > input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #e1e1e1;
+  color: #606060;
+  height: 40px;
+  opacity: 1;
+}
+.find-home-box-inner .find-home-item > input placeholder {
+  color: #fff;
+}
+.find-home-item > input::-moz-placeholder {
+    color: #606060;
+    opacity: 1;
+}
+.find-home-3  .find-home-item > input::-moz-placeholder,.postion .find-home-item > input::-moz-placeholder,.find-home-box-inner .find-home-bottom .price_slider_amount > input {
+    color: #fff;
+}
+.find-home-box-inner .find-home-item input::-webkit-input-placeholder { 
+  color: #fff;
+}
+.find-home-box-inner .find-home-bottom .price_slider_amount > input::-webkit-input-placeholder{
+  color: #fff;
+}
+/*Price filter css*/
+.slider-area{position: relative;}
+.price_filter {
+    padding-bottom: 8px;
+}
+.find-home-box .container {
+  width: 100%;
+}
+.price_slider_amount {
+    overflow: hidden;
+}
+.price_slider_amount > input {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    width: 50%;
+}
+.price_slider_amount > input:first-child {
+    padding-right: 5px;
+    text-align: right;
+}
+.ui-widget-content {
+    background: #e0edfc none repeat scroll 0 0;
+    border: medium none;
+    color: #222;
+    height: 8px;
+    border-radius: 0;
+}
+.ui-slider .ui-slider-range {
+    background: #004395 none repeat scroll 0 0;
+    border-radius: 0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background: #004395 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  height: 17px;
+  margin-left: -4px;
+  margin-top: -8px;
+  top: 50%;
+  width: 17px;
+}
+.price_slider_amount > input {
+    color: inherit;
+    font-weight: 300;
+}
+.find-home-item > button {
+  background: #f9c322 none repeat scroll 0 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: #ffffff;
+  font-weight: 400;
+  height: 40px;
+  line-height: 38px;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.find-home-item > button:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #f9c322;
+    color: #f9c322;
+}
+/*---------------------
+    03. Property area css here
+----------------*/
+.property-desc {
+  background: #004395 none repeat scroll 0 0;
+}
+.property-bottom-list ul li {
+    color: #ffffff;
+    display: inline-block;
+    padding-left: 29px;
+}
+.property-desc-top h6 a:hover {
+  color: #f9c322;
+}
+
+.property-bottom-list {
+  border-top: 1px solid #ffffff;
+  overflow: hidden;
+  padding: 18px;
+}
+.property-bottom-list ul li:first-child {
+    padding-left: 0;
+}
+.property-bottom-list ul li span {
+    margin-left: 5px;
+}
+.property-desc-top h6 {
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 14px;
+  margin-bottom: 6px;
+}
+.property-desc-top h4.price {
+    color: #f9c322;
+    font-size: 20px;
+    margin-bottom: 0;
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
+.property-location > p {
+    color: #eee;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.property-location > p img {
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
+}
+.property-desc-top {
+  padding: 25px 18px 15px;
+  position: relative;
+}
+.feature-property-title > h3 {
+    color: #004395;
+    font-size: 26px;
+    line-height: 20px;
+    margin: 0;
+}
+.feature-property-title {
+  margin-bottom: 11px;
+}
+.property-img {
+    overflow: hidden;
+}
+.property-img a img {
+  transition: all 0.5s ease 0s;
+  width: 100%;
+  display: block;
+}
+.single-property:hover .property-img a img {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+}
+.property-list .col-md-4 {
+  width: 100%;
+}
+.property-list.owl-theme .owl-buttons > div, .property_list.owl-theme .owl-buttons > div, .happy-client-list.owl-theme .owl-buttons > div {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #e1e1e1;
+  border-radius: 0;
+  color: #303030;
+  font-size: 22px;
+  height: 40px;;
+  line-height: 38px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+  transition: all 0.5s ease 0s;
+  width: 40px;
+}
+.property-img > a {
+  display: block;
+}
+.property-list.owl-theme:hover .owl-buttons > div, .property_list.owl-theme:hover .owl-buttons > div, .happy-client-list.owl-theme:hover .owl-buttons > div {
+  opacity: 1;
+}
+.property-list.owl-theme .owl-buttons > div,.property_list.owl-theme .owl-buttons > div {
+    left: -5px;
+}
+.property-list.owl-theme .owl-buttons .owl-next, .property_list.owl-theme .owl-buttons .owl-next {
+  left: auto;
+  right: -5px;
+}
+.property-list.owl-theme .owl-buttons > div:hover,.property_list.owl-theme .owl-buttons > div:hover,.happy-client-list.owl-theme .owl-buttons > div:hover {
+    background: #ffc400 none repeat scroll 0 0;
+    border-color: #ffc400;
+    color: #ffffff;
+}
+.property_list.owl-theme .owl-controls,.property-list.owl-theme .owl-controls {
+  margin-top: 0;
+}
+.happy-client-list.owl-theme .owl-controls {
+  margin-top: 0;
+}
+.property-tab-menu ul li {
+    display: inline-block;
+    margin-left: 32px;
+}
+.property-tab-menu {
+  padding-bottom: 18px;
+  text-align: right;
+}
+.property-tab-menu ul li a {
+  color: #303030;
+  font-weight: 500;
+  padding: 0;
+}
+.property-tab-menu ul li a:hover, .property-tab-menu ul li a:focus {
+    background: inherit;
+}
+.property-tab-menu ul li a:hover, .property-tab-menu ul li.active a {
+    color: #f9c322;
+}
+/*-------------
+    04. Welcome Haven css here
+---------------*/
+.welcome-title .title-1 {
+    color: #004395;
+    font-size: 26px;
+}
+.welcome-haven-img {
+  text-align: right;
+}
+.welcome-title .title-1 span,.welcome-title .title-2 span {
+    color: #f9c322;
+}
+.welcome-title .title-2 {
+  color: #004395;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.welcome-title {
+    padding-bottom: 17px;
+}
+.welcome-content > p {
+    color: #606060;
+    font-weight: 300;
+}
+.welcome-content > p span {
+    color: #f9c322;
+    font-size: 16px;
+    font-weight: 400;
+}
+.services-img, .services-desc {
+    display: inline-block;
+}
+.services-img {
+    float: left;
+    margin-right: 16px;
+}
+.services-desc > h6 {
+    color: #303030;
+}
+.services-desc > p {
+    color: #606060;
+    font-weight: 300;
+    margin: 0;
+}
+.w-single-services {
+    margin-bottom: 31px;
+}
+.welcome-services {
+  padding-top: 34px;
+}
+.welcome-haven {
+    padding-bottom: 70px;
+    padding-top: 85px;
+}
+.welcome-haven {
+  padding-bottom: 70px;
+  padding-top: 90px;
+}
+.single-services .welcome-title {
+  padding-top: 43px;
+}
+.single-services .welcome-content {
+  padding-top: 17px;
+}
+/*--------------
+    05. Download apps css here
+----------------*/
+.download-apps {
+  background: rgba(0, 0, 0, 0) url("img/common/download.jpg") no-repeat scroll center center / cover ;
+  padding: 59px 0 23px;
+  position: relative;
+}
+.download-apps-desc {
+  margin-top: 14px;
+}
+.overlay-blue:before{
+  position: absolute;
+  content: "";
+  background: rgba(0,67,149,0.95);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.fun-fact.overlay-black::before {
+  background: rgba(0, 0, 0, 0.95) none repeat scroll 0 0;
+}
+.fun-fact.no-bg {
+    background-color: #9e9e9e;
+    background-image: none;
+}
+.download-app-inner{
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+}
+.download-apps-title h3 {
+    color: #f9c322;
+    font-size: 26px;
+}
+.download-apps-title h3.title-1 {
+    margin-bottom: 6px;
+}
+.download-apps-bottom > p {
+    color: #eee;
+    font-weight: 300;
+}
+.download-apps-bottom > a {
+  background: #f9c322 none repeat scroll 0 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: #ffffff;
+  display: inline-block;
+  height: 40px;
+  line-height: 38px;
+  margin-top: 11px;
+  padding: 0 21px;
+}
+.download-apps-bottom > a:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #f9c322;
+    color: #f9c322;
+}
+.download-apps-title h3.title-2 {
+  margin-bottom: 16px;
+}
+/*---------------
+    06. Our services css here
+--------------*/
+.services-section {
+  padding-bottom: 125px;
+  padding-top: 130px;
+}
+.section-title h3 {
+    color: #004395;
+    font-size: 26px;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+.section-title p {
+  color: #606060;
+  font-weight: 300;
+  margin: 0;
+}
+.section-title {
+  margin-bottom: 57px;
+}
+.single-services-desc {
+  margin-top: 24px;
+}
+.single-services-desc > p {
+    color: #606060;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.single-services h5 {
+    color: #303030;
+    text-transform: capitalize;
+}
+/*----------------------------
+    07. Feature property css here
+---------------------*/
+.single-property {
+    position: relative;
+}
+.single-property > span {
+  background: #f9c322 none repeat scroll 0 0;
+  color: #ffffff;
+  height: 28px;
+  left: 16px;
+  line-height: 28px;
+  padding: 0 13px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  z-index: 99;
+}
+.single-property span.bg-blue {
+  background: #15539e none repeat scroll 0 0;
+}
+/*-------------
+   08. Awesome feature css here
+----------------*/
+.awesome-feature-img-inner,.awesome-feature-img-border {
+  display: inline-block;
+  position: relative;
+}
+.awesome-feature-img {
+    text-align: center;
+}
+.awesome-feature-img-inner::before,.awesome-feature-img-inner::after,.awesome-feature-img-border::before {
+    border: 1px solid #eef0f1;
+    border-radius: 50%;
+    content: "";
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    pointer-events: none;
+    z-index: 99;
+}
+.awesome-feature-desc {
+  margin-top: 39px;
+}
+.awesome-feature-img-inner::before {
+    margin-left: -270px;
+    margin-top: -192.5px;
+    width: 540px;
+    height: 385px;
+}
+.awesome-feature-img-inner::after {
+  height: 414px;
+  margin-left: -292.5px;
+  margin-top: -207px;
+  width: 585px;
+}
+.awesome-feature-img-border::before {
+  height: 442px;
+  margin-left: -310px;
+  margin-top: -221px;
+  width: 620px;
+}
+.awesome-feature-list .col-4.right {
+    float: right;
+}
+.awesome-feature-desc {
+    position: relative;
+}
+.awesome-feature-list {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.awesome-feature {
+  padding-bottom: 165px;
+  padding-top: 130px;
+}
+.s-awesome-feature-icon i {
+    font-size: 30px;
+    color: #303030;
+}
+.s-awesome-feature-title > h6 {
+  color: #303030;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.col-4.left .s-awesome-feature-icon {
+  margin-left: 16px;
+}
+.col-4.left .s-awesome-feature-head {
+    float: left;
+    text-align: right;
+}
+.s-awesome-feature-icon,.s-awesome-feature-head  {
+    display: inline-block;
+}
+.col-4.right .s-awesome-feature-head {
+    text-align: left;
+}
+.col-4.right .s-awesome-feature-icon {
+    float: left;
+    margin-right: 16px;
+}
+.single-awesome-feature {
+  overflow: hidden;
+}
+.s-awesome-feature-text > p {
+  color: #606060;
+  font-weight: 300;
+  margin: 0;
+}
+.single-awesome-feature {
+    position: relative;
+}
+.single-awesome-feature.one {
+  left: 101px;
+}
+.single-awesome-feature.two {
+    left: 15px;
+}
+.single-awesome-feature.three {
+  left: 107px;
+}
+.single-awesome-feature.six {
+  left: 35px;
+}
+.single-awesome-feature.five {
+    left: 120px;
+}
+.single-awesome-feature.four {
+    left: 30px;
+}
+
+/*----------------------
+    09. Fun fact css here
+---------------*/
+.fun-fact{
+  background: url(img/fun/cover-bg.png)no-repeat scroll center center / cover;
+  position: relative;
+  padding: 140px 0;
+}
+.fun-icon i {
+    color: #f9c322;
+    font-size: 40px;
+    line-height: 36px;
+}
+.fun-icon, .fun-count {
+    display: inline-block;
+}
+.fun-count h3.counter {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 400;
+    margin: 0;
+}
+.fun-icon {
+  float: none;
+  margin-right: 10px;
+}
+.fun-text p {
+    color: #e0e0e0;
+    display: block;
+    font-weight: 400;
+    line-height: 14px;
+    margin: 0;
+}
+.fun-head {
+    margin-bottom: 7px;
+}
+.fun-icon > img {
+  position: relative;
+  top: -8px;
+}
+.singe-fun-fact.middle {
+  margin-left: 45px;
+}
+.singe-fun-fact.middle-2 {
+    margin-left: 50px;
+}
+/*----------------
+   10. Our team css here
+--------------*/
+.team-area {
+  padding: 130px 0;
+}
+.single-team {
+  box-shadow: 0 0 4px rgba(1, 1, 1, 0.2);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.team-desc {
+  background: #f5f9fd none repeat scroll 0 0;
+  bottom: 0;
+  box-shadow: 0 0 4px rgba(1, 1, 1, 0.2);
+  position: absolute;
+  width: 100%;
+}
+.team-member-title > h6 {
+    color: #303030;
+    font-weight: 400;
+    margin: 0;
+    text-transform: capitalize;
+}
+.team-member-title > p {
+    color: #606060;
+    font-weight: 300;
+    margin: 0;
+}
+.team-member-title {
+  padding-bottom: 6px;
+  padding-top: 14px;
+  transition-duration: 0.4s;
+}
+.team-member-social > a {
+    border: 1px solid #ebebeb;
+    color: #606060;
+    display: inline-block;
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 11px;
+    text-align: center;
+    width: 36px;
+}
+.team-member-social > a:first-child {
+    margin-left: 0;
+}
+.team-member-social > a:hover {
+    background: #004395 none repeat scroll 0 0;
+    border-color: #004395;
+    color: #ffffff;
+}
+.team-member-social {
+    padding-bottom: 16px;
+}
+.team-member-social {
+  bottom: 0;
+  opacity: 0;
+  padding-bottom: 16px;
+  position: absolute;
+  -ms-transform: translateY(50px);
+  -webkit-transform: translateY(50px);
+      transform: translateY(50px);
+  transition: all 0.5s ease 0s;
+  width: 100%;
+}
+.single-team:hover .team-member-social {
+  opacity: 1;
+  position: inherit;
+  -ms-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+}
+.single-team:hover .team-member-title {
+  padding-bottom: 60px;
+}
+.blog-thubmnail {
+    position: relative;
+}
+.blog-post {
+  bottom: 15px;
+  left: -12px;
+  position: absolute;
+}
+.blog-post span {
+    background: #f9c322 none repeat scroll 0 0;
+    display: block;
+    color: #004395;
+    text-align: center;
+    width: 51px;
+    margin-bottom: 5px;
+}
+.blog-desc span.post-day {
+    font-size: 28px;
+}
+.blog-post span.post-day {
+    font-size: 28px;
+    font-weight: 400;
+    height: 46px;
+    line-height: 46px;
+}
+.blog-post span.post-month {
+    font-size: 12px;
+    height: 37px;
+    line-height: 37px;
+}
+.blog-post span:last-child {
+    margin-bottom: 0;
+}
+.blog-desc {
+    background: #f5f9fd none repeat scroll 0 0;
+    padding: 23px 20px 0;
+}
+.blog-desc > h6 {
+    color: #303030;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+.blog-desc p.post-content {
+    color: #606060;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+.bolg-continue > a {
+    color: #f9c322;
+    display: block;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+.blog-desc h6 a {
+    font-weight: 400;
+}
+.blog-desc h6 a:hover {
+    color: #f9c322;
+}
+.bolg-continue > a:hover {
+  color: #000000;
+}
+/*-------------------
+    11. Cleint review css here
+--------------*/
+.client-reveiw {
+  margin: 5px 0;
+  padding: 20px 25px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+.review-quote i {
+    color: #ebeaea;
+    font-size: 31.5px;
+}
+.review-desc > p {
+    color: #606060;
+    font-weight: 300;
+}
+.review-desc > p span {
+    color: #004395;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.happy-client-name > h6 {
+  color: #303030;
+  font-weight: 400;
+  padding-top: 14px;
+  position: relative;
+}
+.happy-client-name > h6 span {
+    color: #606060;
+    font-weight: 300;
+}
+.happy-client-name > h6::before {
+    background: #dadada none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -22.5px;
+    position: absolute;
+    top: 0;
+    width: 45px;
+}
+.client-reveiw:hover {
+  background: #f5f9fd none repeat scroll 0 0;
+  box-shadow: 0 0 4px rgba(1, 1, 1, 0.2);
+}
+.happy-client-list.owl-theme .col-md-3 {
+  width: 100%;
+}
+.happy-client-list.owl-theme .owl-buttons > div {
+    right: 0;
+    left: auto;
+}
+.happy-client-list.owl-theme .owl-buttons .owl-prev {
+   left: 0;
+}
+/*------------------
+    12. Brand css here
+-----------------*/
+.single-brand img{
+    -webkit-filter: grayscale(100%);
+    -mz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+       filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
+       filter: grayscale(100%);
+    
+}
+.single-brand img:hover{
+    -webkit-filter: none;
+    -mz-filter: none;
+    -o-filter: none;
+       filter: none;
+}
+.brand-section {
+  padding: 132px 0;
+}
+.single-brand {
+  text-align: center;
+}
+.brand-section.pd-2 {
+  padding: 132px 0;
+}
+/*-----------------
+    13. Footer css here     
+---------------------*/
+.singe-footer-newsletter {
+    background: rgba(0, 67, 149, 0.85) none repeat scroll 0 0;
+    float: left;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 33.3333%;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.single-footer-contact {
+  background: rgba(0, 67, 149, 0.85) none repeat scroll 0 0;
+  float: right;
+  height: 100%;
+  padding: 47px 43px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 33.3333%;
+}
+.map-area {
+    position: relative;
+}
+.on_gmap.dropdown.gmap_controls {
+  margin-top: 60px!important;
+}
+.f-logo > a {
+  background: #ffffff none repeat scroll 0 0;
+  display: inline-block;
+  height: 112px;
+  line-height: 110px;
+  width: 125px;
+}
+.footer-logo {
+  padding-bottom: 28px;
+  padding-top: 40px;
+}
+.newsletter > p {
+  color: #e2e0e0;
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.newsletter-form  input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #e2e0e0;
+    padding: 0 12px;
+    text-transform: capitalize;
+}
+.newsletter-form input::-webkit-input-placeholder  {
+    color: #e2e0e0;
+}
+.newsletter-form {
+    position: relative;
+}
+.newsletter-form button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #e2e0e0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
+
+.contact-head h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contact-head > p {
+  color: #e2e0e0;
+  font-weight: 300;
+  padding-bottom: 21px;
+  padding-top: 4px;
+}
+.contact-icon, .contact-text {
+    display: inline-block;
+}
+.contact-text > p {
+  color: #e2e0e0;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 0;
+}
+.contact-icon {
+    float: left;
+    margin-right: 25px;
+    position: relative;
+    top: 10px;
+}
+.single-contact-list {
+  padding-bottom: 16px;
+}
+
+.footer-bottom {
+    background: #004395 none repeat scroll 0 0;
+}
+.footer-menu li {
+    display: inline-block;
+}
+.footer-menu li a {
+  color: #e2e0e0;
+  display: block;
+  font-family: "Poppins",sans-serif;
+  font-weight: 300;
+  margin-left: 25px;
+  padding: 28px 0;
+  text-transform: uppercase;
+}
+.footer-menu li:first-child a {
+    margin-left: 0;
+}
+.footer-menu li a:hover {
+    color: #f9c322;
+}
+.copyright > p {
+  color: #e2e0e0;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0;
+  padding: 24px 0;
+  text-align: right;
+}
+.copyright > p a {
+    color: #f9c322;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.copyright > p a:hover {
+    text-decoration: underline;
+}
+/*---------------
+   14. Home 2 css here
+---------------*/
+/*Slider css*/
+.find-home-box.postion {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.find-home-box {
+  background: rgba(0, 67, 149, 0.7) none repeat scroll 0 0;
+  margin-left: 26px;
+  padding: 52px 25px;
+  position: relative;
+  width: 367px;
+  z-index: 9;
+}
+.find-home-box-inner .find-home-title > h3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+.find-home-box-inner .find-home-title > h3 span {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+.find-home-cagtegory .col-md-6 {
+  padding-bottom: 30px;
+}
+.find-home-bottom {
+  text-align: left;
+}
+
+.find-home-bottom .col-md-12 {
+    padding-top: 4px;
+}
+.find-home-bottom .find-home-item > button {
+    margin-top: 43px;
+}
+
+.find-home-bottom  .ui-state-default,.find-home-bottom  .ui-widget-content .ui-state-default,.find-home-bottom  .ui-widget-header .ui-state-default {
+  background: #f9c322  none repeat scroll 0 0;
+}
+.find-home-bottom .ui-slider .ui-slider-range {
+  background: #f9c322 none repeat scroll 0 0;
+}
+.find-home-bottom  .price_slider_amount > input:first-child {
+  text-align: left;
+}
+.find-home-bottom .price_slider_amount > input {
+   color: #a8a8a8;
+  width: inherit;
+}
+
+.find-home-box-inner .bootstrap-select > .dropdown-toggle,.find-home-box-inner  .bootstrap-select > .dropdown-toggle.bs-placeholder,.find-home-box-inner  .bootstrap-select > .dropdown-toggle.bs-placeholder:hover,.find-home-box-inner  .bootstrap-select > .dropdown-toggle.bs-placeholder:focus,.find-home-box-inner  .bootstrap-select > .dropdown-toggle.bs-placeholder:active {
+  color: #fff;
+}
+.find-home-box-inner .find-home-item > input {
+  color: #d7d7d7;
+}
+.find-home-box-inner .btn-default:active,.find-home-box-inner .btn-default.active,.find-home-box-inner .open > .dropdown-toggle.btn-default,.find-home-box-inner .btn-default:active:hover,.find-home-box-inner .btn-default.active:hover,.find-home-box-inner .open > .dropdown-toggle.btn-default:hover,.find-home-box-inner .btn-default:active:focus,.find-home-box-inner .btn-default.active:focus,.find-home-box-inner .open > .dropdown-toggle.btn-default:focus,.find-home-box-inner .btn-default.focus:active,.find-home-box-inner .btn-default.active.focus, .find-home-box-inner.open > .dropdown-toggle.btn-default.focus {
+ color: #f9c322;
+}
+
+.no-caret .bootstrap-select > .dropdown-toggle::before{
+  display: none;
+}
+
+.slider-container.home-2 .display-tablecell .col-md-7 {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    z-index: 9;
+}
+.slider-container.home-2 .display-tablecell .col-md-5 {
+  float: right;
+}
+.home-2 .slide1-text {
+  text-align: left;
+}
+.home-2 .title-1 h3 {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+.home-2 .title-2 h1 {
+  font-size: 44px;
+}
+.home-2 .slide1-text .title-2 {
+   padding-bottom: 4px;
+}
+.home-2 .slide1-text .contact-us a {
+  margin-top: 23px;
+}
+/*-------------
+    15. Home 3 css here
+---------------*/
+/* Map css here */
+.find-home-3 .find-home-box {
+  background: rgba(0, 67, 149, 0.85) none repeat scroll 0 0;
+  left: 50%;
+  margin-left: -183px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+  transition-duration: .3s;
+}
+.home-3-map {
+  position: relative;
+}
+.find-home-box {
+  border-bottom: 4px solid #f9c322;
+}
+.find-home-box.fadeOut {
+  visibility: hidden;
+}
+.find-home-close {
+    position: absolute;
+    right: 20px;
+    text-align: right;
+}
+.close-home {
+    color: #ffffff;
+    font-size: 19px;
+}
+.close-home:hover {
+    color: #f9c322;
+}
+/*-------------
+    16. Home 4 css here
+---------------*/
+.single_property {
+  overflow: hidden;
+  position: relative;
+}
+.single_property:hover .single_property-text {
+    animation: 700ms ease-in-out 0.1s normal none 1 running flipInY;
+}
+.single_property-text {
+  background: rgba(0, 67, 149, 0.7) none repeat scroll 0 0;
+  bottom: 43px;
+  left: 37px;
+  position: absolute;
+  right: 37px;
+  top: 43px;
+  transition: all 0.3s ease 0s;
+}
+.single_property_inner {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    width: 100%;
+}
+.single_property_inner > h4 {
+  color: #fefefe;
+  font-weight: 500;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+}
+.single_property_inner > h4 a:hover {
+  color: #f9c322;
+}
+.single_property_inner > p {
+  color: #fefefe;
+  font-weight: 300;
+  margin: 0;
+}
+.single_propert_img > img {
+    transition: all 0.5s ease 0s;
+}
+.single_property:hover .single_propert_img > img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+}
+/*---------------------
+    17. Scrollup css here
+---------------*/
+#scrollUp {
+  background: #004395 none repeat scroll 0 0;
+  bottom: 45px;
+  color: #ffffff;
+  cursor: pointer;
+  display: none;
+  font-size: 28px;
+  height: 40px;
+  line-height: 37px;
+  position: fixed;
+  right: 30px;
+  text-align: center;
+  width: 40px;
+  z-index: 9999;
+}
+#scrollUp:hover {
+  background: #f9c322 none repeat scroll 0 0;
+}
+/*--------------
+    18. Breadcrumbs css here
+----------------*/
+.breadcrumbs{
+  background: url(img/common/breadcrumbs.jpg)no-repeat scroll center center / cover;
+  padding: 176px 0 19px;
+  position: relative;
+}
+.overlay-black:before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  left: 0;
+  top: 0;
+}
+.breadcrumbs-title h1 {
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.breadcrumbs-title h1 {
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.breadcrumbs-menu li, .breadcrumbs-menu li a {
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.breadcrumbs-menu {
+    padding-top: 138px;
+    text-align: right;
+}
+.breadcrumbs-menu li a:hover {
+  color: #f9c322;
+}
+/*---------------
+   19. Pagination css here
+----------------*/
+.pagination {
+  border-radius: 0;
+  display: block;
+  margin: 45px 0 0;
+}
+.pagination-inner li a, .pagination-inner li.current {
+    border: 1px solid #e1e1e1;
+    color: #303030;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    width: 26px;
+}
+.pagination-inner li a:hover,.pagination-inner li.current{
+    color: #fff;
+    background: #ffc400;
+    border-color: #ffc400;
+}
+.pagination-inner li {
+  display: inline-block;
+  margin-left: 12px;
+}
+.pagination-inner li:first-child {
+  margin-left: 0;
+}
+/*--------------
+   20. Properties sidebar css here
+----------------*/
+.sidebar .find-home-box {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  padding-right: 20px;
+}
+.agent-img > a {
+  border: 1px solid #ebebeb;
+  display: block;
+}
+.find-home_bottom .find-home-item > button {
+  margin-top: 26px;
+}
+.find_home-box .price_filter {
+  width: 246px;
+}
+.aside-title h5 {
+    color: #004395;
+    line-height: 20px;
+    margin: 0;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: capitalize;
+}
+.aside-title {
+    margin-bottom: 30px;
+}
+.aside-title h5::before {
+    background: #004395 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+.feature .feature-property .property-desc-top {
+  padding: 13px 9px 9px;
+}
+.feature .feature-property .property-desc-top h6 {
+  font-size: 14px;
+}
+.feature .property-desc-top h4.price {
+  font-size: 14px;
+  position: inherit;
+  right: 0;
+  top: inherit;
+  -ms-transform: inherit;
+  -webkit-transform: inherit;
+      transform: inherit;
+}
+.feature .feature-property .single-property {
+  margin-bottom: 13px;
+}
+.agent-title > h6 {
+  color: #1f223e;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.agent-img img {
+  width: 100%;
+}
+.single-agent {
+  text-align: center;
+}
+.single-agent {
+  margin-bottom: 23px;
+  text-align: center;
+}
+.our-tag-list li {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.our-tag-list li a {
+    border: 1px solid #cccccc;
+    color: #303030;
+    display: block;
+    font-weight: 300;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    text-transform: capitalize;
+}
+.our-tag-list li a:hover {
+    background: #f9c322 none repeat scroll 0 0;
+    border-color: #f9c322;
+    color: #ffffff;
+}
+.video-sidebar {
+    position: relative;
+}
+.play-button {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    width: 100%;
+    z-index: 99;
+}
+.play-button > a {
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 28px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    width: 60px;
+}
+.video-sidebar::before {
+    background: rgba(0, 67, 149, 0.45) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.video-img > img {
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.video-sidebar:hover img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+}
+.video-img {
+    overflow: hidden;
+}
+.sidebar aside.single-side-box {
+  margin-bottom: 60px;
+}
+aside.single-side-box.feature {
+    margin-bottom: 47px;
+}
+aside.single-side-box.agent {
+    margin-bottom: 37px;
+}
+aside.single-side-box.tags {
+    margin-bottom: 45px;
+}
+.search-property .find_home-box {
+    padding: 0 5px;
+}
+.search-property .find-home-cagtegory .col-md-6 {
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.single-side-box.feature .row .col-md-6 {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.single-side-box.feature .feature-property {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.single-side-box.agent .col-md-4,aside.single-side-box.agent .our-agent-sidbar {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+.agent-img > img {
+    width: 100%;
+}
+.sidebar.right-side {
+  padding-left: 20px;
+  padding-right: 0;
+}
+/*-----------
+    21. Property list css here
+--------------*/
+.list_property {
+  background: #f5f9fd none repeat scroll 0 0;
+}
+.property-desc.list_property_desc {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.list_property .property-bottom-list ul li {
+  color: #303030;
+}
+.list_property .property-desc-top h6 {
+  color: #004395;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 6px;
+}
+.list_property .property-desc-top h4.price {
+  font-size: 22px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+}
+.list_property .property-location > p {
+  color: #999999;
+}
+.property-list-desc > p {
+    color: #606060;
+    font-weight: 300;
+}
+.property-list-desc > p span {
+    color: #303030;
+    font-weight: 400;
+}
+.feature-property .list_property .property-desc-top {
+  padding: 13px 9px 9px 0;
+}
+.list_property  .property-bottom-list {
+  border-top: medium none;
+  overflow: hidden;
+  padding: 0;
+}
+.list_property .property-desc-bottom {
+  padding-top: 18px;
+}
+.property-desc.list_property_desc {
+  padding-right: 20px;
+  padding-top: 30px;
+}
+.list_property .property-bottom-list ul li {
+  padding-left: 34px;
+}
+.list_property .property-bottom-list ul li:first-child {
+  padding-left: 0;
+}
+.list_property .col-6:last-child {
+  padding-left: 15px;
+}
+.list_property .col-6:first-child {
+  padding-right: 15px;
+}
+/*----------------------
+    22. Single property css here
+----------------*/
+.desc-title > h5 {
+    color: #303030;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 25px;
+}
+.single-property-description {
+    margin-top: 47px;
+}
+.description-inner p {
+    color: #606060;
+    font-weight: 300;
+}
+.description-inner p span {
+    color: #f9c322;
+    font-weight: 400;
+}
+.description-inner p.text-1 {
+    margin-bottom: 24px;
+}
+.description-inner p.text-2 {
+    margin-bottom: 28px;
+}
+.description-inner p.text-3 {
+    margin: 0;
+}
+.condtion-title > h5, .amenities-title > h5 {
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 36px;
+  text-transform: capitalize;
+}
+.condition-amenities {
+  padding-top: 48px;
+}
+.property-condition-list, .amenities-list {
+    background: #f5f9fd none repeat scroll 0 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 64.25%;
+}
+.property-condition-list li {
+    color: #606060;
+    display: inline-block;
+    float: left;
+    font-weight: 300;
+    height: 25px;
+    margin-bottom: 35px;
+    width: 50%;
+}
+.property-condition-list {
+  height: 277px;
+  padding: 40px 0 40px 35px;
+}
+.property-condition-list li span {
+    margin-left: 5px;
+}
+.property-condition-list ul li.price {
+    color: #606060;
+    font-weight: 400;
+}
+.property-condition-list li span.price {
+    color: #606060;
+    font-size: 16px;
+    font-weight: 400;
+}
+.condition-amenities .property-location {
+    display: inline-block;
+}
+.condition-amenities .property-location > p {
+    color: #606060;
+    font-size: 15px;
+}
+.amenities-list ul li {
+    color: #606060;
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 23px;
+    width: 50%;
+}
+.amenities-list {
+    height: 277px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 43px;
+}
+.amenities-list ul li i {
+    font-size: 18.2px;
+}
+.amenities-list ul li span {
+    margin-left: 7px;
+}
+.plan-title > h5,.review-title h5 {
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 36px;
+  text-transform: capitalize;
+}
+.planning {
+    margin-top: 57px;
+}
+.feedback-title > h5 {
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 47px;
+}
+.feedback {
+    margin-top: 53px;
+}
+.feedback-img {
+    display: inline-block;
+    float: left;
+    width: 11%;
+}
+.feedback-desc {
+    display: inline-block;
+    float: left;
+    padding-left: 22px;
+    width: 89%;
+}
+.feedback-title > h6 {
+    color: #303030;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+}
+.feedback-desc p.feedback-post {
+  color: #606060;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.feedback-desc p.review-desc {
+  color: #565656;
+  font-weight: 300;
+  margin: 0;
+}
+.review-title h5 {
+  margin-bottom: 42px;
+}
+.leave-review {
+  margin-top: 53px;
+}
+.form-top .input-filed {
+    float: left;
+    width: 50%;
+}
+.form-top {
+    margin-bottom: 28px;
+    overflow: hidden;
+}
+.form-top .input-filed:first-child {
+    padding-right: 9px;
+}
+.form-top .input-filed:last-child {
+    padding-left: 9px;
+}
+.form-bottom .input-field {
+    margin-bottom: 28px;
+}
+.submit-form {
+    margin-top: 33px;
+}
+.form-top .input-filed > input, .form-bottom .input-field input,.profile-desc .input-type input,.social-form-box .input-type input,.change-password .input-type > input{
+    background: #f5f9fd none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    color: #606060;
+    font-weight: 300;
+    line-height: 36px;
+    padding-left: 13px;
+}
+.form-bottom textarea,.profile-desc .input-type textarea {
+    background: #f5f9fd none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    font-weight: 300;
+    height: 198px;
+    padding-left: 13px;
+    padding-top: 22px;
+    resize: none;
+}
+.submit-form > button {
+    background: #f9c322 none repeat scroll 0 0;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 32px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.submit-form > button:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #f9c322;
+    color: #f9c322;
+}
+/*-------------
+    23. Agent css here
+----------------*/
+.welcome-haven .agent {
+  padding-right: 25px;
+}
+.agent-page .single-team {
+  margin-bottom: 59px;
+}
+.agent-page .pagination {
+  margin-top: 0;
+}
+/*----------------
+    23.1 Agent Details css here
+------------*/
+.agent-profile .single-team:hover .team-member-title {
+  padding-bottom: 6px;
+}
+.agent-text > p {
+    color: #606060;
+    font-weight: 300;
+}
+.agent-text > p span.black {
+    color: #1f223e;
+    font-weight: 600;
+}
+.agent-text > p span.yellow {
+    color: #f9c322;
+    font-weight: 400;
+}
+.agent-description {
+  margin-top: 18px;
+  padding-right: 11px;
+}
+.biography-title > h5 {
+  color: #004395;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+.biography-desc > p {
+    color: #606060;
+    font-weight: 300;
+}
+.agent-funt-fact .fun-text p,.agent-funt-fact .fun-count h3.counter{
+  color: #1f223e;
+}
+.agent-funt-fact .fun-count h3.counter {
+  font-size: 26px;
+}
+.agent-funt-fact .fun-icon i {
+  font-size: 29px;
+}
+.contact-title > h5 {
+    color: #004395;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.contact-title > p {
+    margin-bottom: 31px;
+}
+.contact-title > p,.working-experience-text > p,.experience-content > p {
+    color: #606060;
+    font-weight: 300;
+}
+.experience-check .feature-check input[type="checkbox"] + label::before {
+  top: -18px;
+}
+.contact-list ul li {
+    color: #606060;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.contact-list ul li sapn i {
+    font-size: 19px;
+}
+.contact-list ul li sapn {
+    margin-right: 4px;
+}
+.contact-social a {
+    background: #f5f9fd none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    color: #606060;
+    display: inline-block;
+    font-size: 12px;
+    height: 33px;
+    line-height: 33px;
+    margin-left: 17px;
+    text-align: center;
+    width: 36px;
+}
+.contact-social a:first-child {
+    margin-left: 0;
+}
+.contact-social a:hover {
+    background: #f9c322 none repeat scroll 0 0;
+    border-color: #f9c322;
+    color: #ffffff;
+}
+.working-title > h5, .contact-inquiry-title > h5 {
+    color: #004395;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.experience-check {
+    display: inline-block;
+    float: left;
+    height: 68px;
+    margin-top: 7px;
+    width: 36px;
+}
+.experience-check i {
+    color: #606060;
+    font-size: 22px;
+}
+.agent-birography {
+    padding-top: 15px;
+}
+.agent-funt-fact {
+  padding-top: 33px;
+}
+.working-title {
+  padding-bottom: 8px;
+}
+.contact-inquiry-title {
+  padding-bottom: 31px;
+}
+.agent-working-desc {
+  margin-top: 96px;
+}
+.experience-list {
+    padding-top: 18px;
+}
+.experience-content {
+    padding-bottom: 10px;
+}
+.blog-pages .pagination {
+  margin: 60px 0 0;
+}
+/*--------------
+   24. Blog Sidebar css here
+----------------*/
+.blog-sidbar {
+    padding-right: 57px;
+}
+.blog-search-inner input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    color: #606060;
+    padding: 0 20px;
+}
+.blog-search-inner {
+    position: relative;
+}
+.blog-search-inner button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #606060;
+    font-size: 15px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
+.aside_title h5 {
+  border-bottom: 1px solid #cccccc;
+  color: #004395;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  padding-bottom: 12px;
+}
+.categories-list li a,.archive-list li a {
+    color: #606060;
+    display: block;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.categories-list li a span {
+    float: right;
+}
+.categories-list ul li,.archive-list li {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 13px;
+    padding-bottom: 6px;
+}
+.categories-list ul li:last-child {
+    margin-bottom: 0;
+}
+.aside_title {
+    margin-bottom: 24px;
+}
+.blog-sidbar .single-side-box {
+    margin-bottom: 53px;
+}
+.categories-list li a:hover,.archive-list ul li a:hover {
+  color: #f9c322;
+}
+.recent-post-desc {
+    float: left;
+    padding-left: 18px;
+    width: 62%;
+}
+.recent-post-thumbnail {
+  float: left;
+  width: 38%;
+}
+.recent-post-thumbnail img {
+    width: 100%;
+}
+.recent-post-thumbnail > a {
+    display: block;
+}
+.post-title > h6 {
+    color: #303030;
+    font-weight: 400;
+    margin: 0;
+}
+.post-publish > p {
+    color: #606060;
+    font-weight: 300;
+    margin: 0;
+}
+.post-content > p {
+    color: #606060;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+}
+.single-recent-post {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 30px;
+    padding-bottom: 11px;
+}
+.recent-post-inner .single-recent-post:last-child {
+    margin-bottom: 0;
+}
+.archive-list ul li {
+  padding-bottom: 9px;
+}
+.latest-tweet > p, .tweet-post > p {
+    color: #606060;
+    font-weight: 300;
+    margin: 0;
+}
+.latest-tweet > p a {
+    color: #f9c322;
+    font-size: 15px;
+    font-weight: 400;
+}
+.tweet-post {
+    padding-top: 7px;
+}
+.latest-tweet {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 23px;
+    padding-bottom: 13px;
+}
+.tweet-list .latest-tweet:last-child {
+    margin: 0;
+}
+.guide-title > h6 {
+    color: #004395;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: capitalize;
+    top: 2px;
+}
+.guide-icon,.guide-title{
+    display: inline-block;
+}
+.guide-title {
+    margin-left: 16px;
+}
+.single-guide {
+  background: #f5f9fd none repeat scroll 0 0;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.17);
+  height: 65px;
+  line-height: 64px;
+  margin-bottom: 49px;
+  padding: 0 30px;
+}
+.property-buying-guide .single-guide:last-child {
+    margin: 0;
+}
+
+.discount-inner, .discount-img {
+    overflow: hidden;
+    position: relative;
+}
+.discount-text {
+    bottom: 11px;
+    left: 18px;
+    position: absolute;
+    z-index: 9;
+}
+.discount-img::before {
+    background: rgba(0, 76, 149, 0.54) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.discount-text > p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.discount-img > img {
+  transition: all 0.5s ease 0s;
+  width: 100%;
+}
+.discount-inner:hover .discount-img > img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+}
+.blog-sidbar.right-side {
+    padding-left: 57px;
+    padding-right: 0;
+}
+/*----------------
+    25. Article css here
+-------------*/
+article .post-title h4 {
+    color: #303030;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 32px;
+}
+.article-desc {
+  padding: 42px 37px 65px 50px;
+}
+article .post-content > p {
+  font-size: 14px;
+}
+article blockquote {
+  border-left: medium none #800000;
+  margin: 0;
+  padding: 30px 0 28px;
+}
+.post-content blockquote p {
+    color: #303030;
+    font-size: 16px;
+}
+.article-tag > p {
+  color: #565656;
+  font-weight: 300;
+  line-height: 16px;
+  margin: 0;
+}
+.article-tag > p span {
+    color: #303030;
+    font-size: 16px;
+    font-weight: 400;
+}
+.article-tag, .article-share {
+    display: inline-block;
+}
+.article-share {
+    float: right;
+}
+.share-title > h6 {
+    color: #303030;
+    font-weight: 400;
+    margin: 0;
+}
+.share-title, .share-social {
+    display: inline-block;
+}
+.share-social > a {
+    color: #606060;
+    font-size: 13px;
+    margin-left: 24px;
+}
+.article-action {
+    padding-top: 85px;
+}
+.comment-title > h5 {
+    color: #303030;
+    font-weight: 400;
+    line-height: 14px;
+    margin: 0;
+}
+.article-comment-box {
+    margin-top: 60px;
+}
+.article-comment-box .comment-title {
+    margin-bottom: 50px;
+}
+.comment-thumbnail {
+    float: left;
+    width: 11%;
+}
+.comment-desc {
+    float: left;
+    width: 89%;
+    padding-left: 22px;
+}
+.comment-name > h6 {
+    color: #303030;
+    font-size: 14px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.comment-desc .comment-post > p {
+    color: #606060;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+.comment-content > p {
+    color: #565656;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.reply-button > a {
+    color: #303030;
+    font-size: 13px;
+    font-weight: 400;
+}
+.reply-button > a:hover {
+    color: #004395;
+}
+.single-comment-box.reply-comment {
+  margin: 40px 0 40px 53px;
+}
+.comment-form {
+    margin-top: 55px;
+}
+.comment-form .comment-title {
+    margin-bottom: 45px;
+}
+.comment-form-box .form-top .input-filed:first-child {
+  padding-right: 15px;
+}
+.comment-form-box .form-top .input-filed:last-child {
+  padding-left: 15px;
+}
+.comment-form-box .form-top .input-filed > input, .comment-form-box .form-bottom .input-field input {
+    height: 37px;
+    line-height: 37px;
+}
+.agency-profile-title > h5 {
+  margin-bottom: 42px;
+  text-align: center;
+}
+.agency-profile-title > h5, .agency-profile-title h6 {
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 25px;
+  margin-top: 66px;
+  text-transform: capitalize;
+}
+.creat-agency-form > input,.contact-information-box input{
+    height: 40px;
+    margin-bottom: 24px;
+    padding-left: 15px;
+}
+.creat-agency-form textarea {
+  height: 178px;
+  padding-left: 15px;
+  padding-top: 22px;
+  resize: none;
+}
+.creat-agency-form textarea,.creat-agency-form > input,.contact-information-box input {
+  background: #f8fafe none repeat scroll 0 0;
+  border: 1px solid #dbdbdb;
+  color: #606060;
+}
+.creat-agency-form textarea,.creat-agency-form > input,.contact-information-box input {
+  margin-bottom: 28px;
+}
+.contact-information-bottom .input-field > input {
+    margin-bottom: 0;
+}
+.creat-agency-profile .agency-profile-title > h5 {
+  margin-top: 0;
+}
+.contact-information-box.right > input:last-child {
+  margin-bottom: 0;
+}
+/*---pricing table css*/
+
+.single-package {
+    background: #f8fafe none repeat scroll 0 0;
+    padding-bottom: 25px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+.package-title {
+    background: #004395 none repeat scroll 0 0;
+    transition: all 0.3s ease 0s;
+}
+.package-title h4 {
+    color: #ffffff;
+    font-weight: 400;
+    height: 65px;
+    line-height: 65px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.package-desc {
+    padding: 38px 0 37px;
+}
+.package-fee > h5 {
+    color: #303030;
+    font-weight: 400;
+    margin: 0;
+}
+.package-propert-list li {
+    color: #606060;
+    font-weight: 300;
+    margin-top: 22px;
+    text-transform: capitalize;
+}
+.package-select > button {
+    background: #004395 none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 35px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.single-package:hover {
+    box-shadow: 1px 0 7px rgba(0, 0, 0, 0.17);
+}
+.single-package:hover .package-title,.single-package:hover .package-select button {
+    background: #f9c322 none repeat scroll 0 0;
+}
+/*------------
+   26. Add property css here
+-----------------*/
+.step-title h4 {
+  color: #004395;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+  padding-bottom: 7px;
+  position: relative;
+}
+.step-title h4::before {
+  background: #004395 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  position: absolute;
+  width: 74px;
+}
+.step-title {
+  margin-bottom: 32px;
+}
+.information-title > h5 {
+    color: #303030;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.add-property-box .input-file > label, .information-text > label {
+  color: #303030;
+  margin-bottom: 14px;
+  text-transform: capitalize;
+}
+.add-property-box .input-file > input {
+    background: #fbfbfe none repeat scroll 0 0;
+    border: 1px solid #dbdbdb;
+    color: #606060;
+    font-size: 12px;
+}
+.information-text textarea {
+    background: #fbfbfe none repeat scroll 0 0;
+    border: 1px solid #dbdbdb;
+    color: #606060;
+    font-size: 12px;
+    height: 258px;
+    resize: none;
+}
+.details-information-box .bootstrap-select > .dropdown-toggle {
+  background: #fbfbfe none repeat scroll 0 0;
+  height: 45px;
+}
+.details-information-box .input-file, .basic-information-form .input-file {
+    margin-bottom: 30px;
+}
+
+.custom-file-upload > input[type="file"],.custom-video-upload > input[type="file"] {
+    display: none;
+}
+.image-upload-box .custom-file-upload,.video-upload-box .custom-video-upload{
+    background: #f9c322 none repeat scroll 0 0;
+    color: #ffffff;
+    height: 45px;
+    line-height: 43px;
+    margin: 0;
+    width: 187px;
+    cursor: pointer;
+}
+.image-upload-box .custom-file-upload span i {
+    font-size: 18px;
+    margin-right: 3px;
+}
+.image-upload-box,.video-upload-box{
+    background: #fcfcfe none repeat scroll 0 0;
+    border: 1px solid #dbdbdb;
+    display: block;
+    padding: 25px 0;
+    text-align: center;
+}
+.step-1 .information-title {
+  padding-bottom: 20px;
+}
+.add-property-box.step-2 {
+    margin-top: 95px;
+}
+.step-2 .information-title {
+  padding-bottom: 22px;
+}
+.step-3 .information-title {
+  padding-bottom: 25px;
+}
+.video-upload-inner {
+  margin-top: 60px;
+}
+.step-4 .information-title {
+  padding-bottom: 30px;
+}
+.add-property-box.step-4 {
+  padding-top: 60px;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 100%;
+}
+.feature-check input[type="checkbox"] {
+  float: left;
+  height: 0;
+  position: absolute;
+  -ms-transform: scale(0);
+  -webkit-transform: scale(0);
+      transform: scale(0);
+  visibility: hidden;
+  width: 0;
+}
+.feature-check input[type="checkbox"] + label {
+  display: inline-block;
+  margin: 0;
+  padding-left: 23px;
+  position: relative;
+  color: #606060;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.feature-check input[type="checkbox"] + label::before {
+  content: "";
+  font-family: FontAwesome;
+  font-size: 18px;
+  left: 0;
+  position: absolute;
+  color: #606060;
+}
+.feature-check input[type="checkbox"]:checked + label::before {
+  content: "\f046";
+}
+.features-box .col-md-6.pd-left {
+  padding-left: 50px;
+}
+.feature-check {
+  padding-bottom: 32px;
+}
+.add-property-submit > button {
+    background: #f9c322 none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 33px;
+}
+.add-property-submit {
+    margin-top: 65px;
+    text-align: right;
+}
+/*------------
+    27. Contact Page css here
+---------------*/
+.single-contact-icon, .single-contact-desc {
+    display: inline-block;
+}
+.contact-list-inner {
+  background: #f5f8fd none repeat scroll 0 0;
+  box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2);
+  margin-bottom: 58px;
+  margin-top: 60px;
+  padding-bottom: 49px;
+  padding-left: 50px;
+  padding-top: 52px;
+}
+.single-contact-icon {
+    position: relative;
+    top: -12px;
+}
+.single-contact-desc > p {
+  color: #606060;
+  font-weight: 300;
+  line-height: 18px;
+  margin: 0;
+}
+.single-contact-icon {
+    padding-right: 16px;
+}
+.contact-form-title h5 {
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 42px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.contact-form-inner input {
+    background: #f8fafe none repeat scroll 0 0;
+    border: 1px solid #dbdbdb;
+    color: #606060;
+    height: 35px;
+    line-height: 33px;
+    padding: 0 12px;
+    margin-bottom: 22px;
+}
+.contact-form-inner textarea {
+    background: #f8fafe none repeat scroll 0 0;
+    border: 1px solid #dbdbdb;
+    color: #606060;
+    height: 134px;
+    padding: 20px 12px 0;
+    resize: none;
+}
+.contact-form-inner button {
+  background: #f9c322 none repeat scroll 0 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: #ffffff;
+  height: 40px;
+  line-height: 38px;
+  margin-top: 35px;
+  padding: 0 32px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.contact-form-inner button:hover {
+  background: none;
+  border-color: #f9c322;
+  color: #f9c322;
+}
+.form-submit {
+  text-align: right;
+}
+.form-messege.success {
+  color: #4caf50;
+}
+.form-messege {
+  color: #ff9800;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.form-messege.error {
+  color: #ff9800;
+}
+/*-------------
+   28. Register page css here
+--------------------*/
+.register-page-form {
+  background: #ffffff none repeat scroll 0 0;
+  padding: 30px;
+  position: relative;
+  width: 400px;
+  margin: auto;
+}
+.register-page-form input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #dbdbdb;
+    color: #606060;
+    font-size: 13px;
+    height: 42px;
+    margin-bottom: 15px;
+    padding-left: 36px;
+    text-transform: capitalize;
+}
+
+.register-page-form .username, .register-page-form .email, .register-page-form .password {
+    position: relative;
+}
+.register-page-form .username::before, .register-page-form .email::before, .register-page-form .password::before {
+    color: #606060;
+    font-family: Icofont;
+    font-size: 16px;
+    left: 12px;
+    position: absolute;
+    top: 10px;
+}
+.register-page-form .username::before {
+    content: "";
+}
+.register-page-form .email::before {
+    content: "";
+}
+.register-page-form .password::before {
+    content: "";
+}
+.agree-text input {
+    float: left;
+    height: 25px;
+    margin: 0 12px 0 0;
+    width: 20px;
+}
+.agree-text span {
+    color: #959595;
+    font-weight: 300;
+}
+.register > button,.login > button {
+    background: #004395 none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    height: 40px;
+    padding: 0 48px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.register,.login {
+    padding-top: 20px;
+    text-align: center;
+}
+.register > button:hover,.login > button:hover {
+    opacity: 0.9;
+}
+.account-title h5 {
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.lost-password p {
+  margin-bottom: 10px;
+}
+.login-with-another {
+  border-top: 1px solid #dbdbdb;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.login-with-another a {
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
+}
+.login-with-another a.facebook {
+  background: #3b5998 none repeat scroll 0 0;
+}
+.login-with-another a.linkedin {
+    background: #007bb6 none repeat scroll 0 0;
+}
+.login-with-another a.google {
+    background: #dd4b39 none repeat scroll 0 0;
+}
+.login-with-another a:last-child {
+    margin: 0;
+}
+.login-with-another a i {
+    padding-right: 15px;
+}
+.login-with-another a:hover {
+    opacity: 0.8;
+}
+.login-with-another a:hover {
+  color: #ffffff;
+}
+.modal-dialog {
+  width: 400px;
+}
+.modal-header {
+    border: 1px solid #dbdbdb;
+    color: #004395;
+    cursor: pointer;
+    height: 30px;
+    line-height: 28px;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    top: 20px;
+    width: 30px;
+}
+.modal-body{
+  padding: 0;
+}
+.agree-text > p label {
+  cursor: pointer;
+}
+/*----------------------------
+    29. 404 page css here
+-------------------------*/
+.error-content h2 {
+  color: #004395;
+  font-size: 180px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-shadow: 7px 6px 0 #dadada, 0 -1px 0 #dadada, 1px -1px 0 #dadada, -1px 1px 0 #dadada, 1px 1px 0 #dadada;
+}
+.error-content > h3 {
+    color: #535353;
+    font-size: 55px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.error-content h4 {
+    color: #535353;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.error-content > p {
+  font-weight: 300;
+}
+.error-content .go-home {
+  background: #004395  none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 13px 28px;
+  text-transform: uppercase;
+}
+.error-content .go-home:hover {
+    background: #f9c322 none repeat scroll 0 0;
+}
+/*----------------
+    30. My account page css here
+----------------*/
+.profile-img > img {
+  width: 100%;
+}
+.profile_name input {
+    display: none;
+}
+.profile_name > label {
+    background: #f9c322 none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.profile-title > h5 {
+    color: #004395;
+    font-weight: 500;
+    line-height: 16px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.profile-desc .input-type {
+  margin-bottom: 25px;
+}
+.profile-desc .input-type > label,.social-form-box .input-type > label {
+    color: #606060;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.profile-desc .input-type,.social-form-box .input-type{
+    margin-bottom: 15px;
+}
+.profile-title {
+  margin-bottom: 25px;
+}
+.profile_name {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+.profile-desc .input-type textarea {
+  height: 170px;
+}
+.update-profile-submit > button {
+    background: #f9c322 none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    font-size: 16px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.update-profile-submit > button:hover {
+    opacity: 0.8;
+}
+.update-profile-submit {
+    margin-top: 10px;
+}
+.change-password .update-profile-submit {
+    margin-top: 25px;
+}
+/*-------------------
+    31. Welcome fixd text css here
+---------------*/
+.welcome-fixed-area{
+  background: url(img/slider/3.jpg)no-repeat scroll center center / cover;
+  position: relative;
+  height: 700px;
+}
+.welcome-fixed-area.parallax{
+    background: url(img/slider/3.jpg)no-repeat fixed center center / cover;
+}
+.welcome-fixed-area.youtube-bg{
+    background: url(img/slider/5.jpg)no-repeat fixed center center / cover;
+}
+
+.dotted-overlay::after {
+  background: url("img/icon/grid.png") repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/*--------------------------
+   32.  Tab css
+---------------------------------*/
+.elements .nav-tabs > li > a {
+    color: #606060;
+    font-weight: 500;
+}
+.elements .nav-tabs > li.active > a {
+  border-radius: 0;
+  border-top: 1px solid transparent;
+  color: #004395;
+}
+.elements .nav.nav-tabs {
+  border: 1px solid #ddd;
+  display: inline-block
+}
+.elements .nav-tabs > li.active:first-child > a {
+  border-left: medium none;
+}
+.elements .nav-tabs > li.active:last-child > a {
+  border-right: medium none;
+}
+.elements .elements-tab-1 .nav.nav-tabs {
+  margin-bottom: 15px;
+}
+#settings_1 > p,#messages_2 > p{
+  font-weight: 300;
+}
+
+/*--------------------------
+   33. Progress bar css
+---------------------------------*/
+.our-skill .progress {
+  background-color: #f0f0f0;
+  border-radius: 0;
+  box-shadow: none;
+  height: 6px;
+  margin-bottom: 43px;
+  overflow: visible;
+  position: relative;
+}
+.our-skill .lead {
+  color: #444;
+  font-size: 13px;
+  font-weight: 700;
+  left: 0;
+  position: absolute;
+  top: -23px;
+}
+.our-skill .progress-bar {
+  background-color: #004395;
+  box-shadow: none;
+}
+
+.our-skill .progress-bar > span:before, .our-skill .progress-bar > span:after {
+  border: medium solid transparent;
+  content: " ";
+  height: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  width: 0;
+}
+.our-skill .progress-bar > span:before {
+  border-top-color: #333;
+  border-width: 5px;
+  left: 50%;
+  margin-left: -5px;
+}
+.our-skill .progress-bar > span {
+  background: #333 none repeat scroll 0 0;
+  float: right;
+  font-size: 11px;
+  margin-right: 10px;
+  margin-top: -26px;
+  padding: 0 5px;
+  position: relative;
+}
+.progress-style-2 .progress-bar {
+  font-size: 14px;
+  line-height: 23px;
+  padding-left: 12px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.progress-style-2 .progress {
+  border-radius: 0;
+  box-shadow: none;
+  height: 23px;
+}
+.audio audio {
+  width: 100%;
+}
+.properties-video h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.typhography h1,.typhography h2,.typhography h3,.typhography h4,.typhography h5,.typhography h6 {
+    color: #303030;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.typhography p {
+    font-weight: 300;
+}
+/*--------
+    34. Accordion css here
+-------------*/
+.panel-default > .panel-heading {
+  background-color: #ffffff;
+}
+.accordion.style1 .panel.panel-default {
+  margin-bottom: 12px;
+}
+.accordion h3 {
+  color: #303030;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.accordion-active > h4 {
+  color: #303030;
+  font-size: 18px;
+  margin-bottom: 22px;
+  padding-left: 30px;
+  position: relative;
+  text-transform: capitalize;
+}
+.accordion-active {
+    background: #ffffff none repeat scroll 0 0;
+    padding: 20px;
+}
+.accordion-active p {
+    font-weight: 300;
+}
+.accordion-active h4::before {
+  color: #303030;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 14px;
+  font-weight: 300;
+  left: 0;
+  margin-left: 5px;
+  margin-right: 15px;
+  position: absolute;
+  top: 6px;
+  transition: all 0.3s ease 0s;
+}
+.accordion-active h4.open:before {
+    color: #004395;
+    content: "";
+}
+.accordion-active h4:hover:before,.accordion-active h4.open {
+    color: #004395;
+}
+
+/* css end */
+
